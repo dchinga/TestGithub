@@ -4,6 +4,15 @@ package model;
 public class Usuario {
     private int id;
     private String nombre;
+    private String apellidos;
+
+    public String getApellidos() {
+        return apellidos;
+    }
+
+    public void setApellidos(String apellidos) {
+        this.apellidos = apellidos;
+    }
 
     public int getId() {
         return id;
