@@ -5,6 +5,7 @@ public class Nomire {
     private String hola;
     private String apruebeme;
     private String pe;
+    private String NOQUIERO;
 
     public String getHola() {
         return hola;
@@ -29,5 +30,15 @@ public class Nomire {
     public void setPe(String pe) {
         this.pe = pe;
     }
+
+    public String getNOQUIERO() {
+        return NOQUIERO;
+    }
+
+    public void setNOQUIERO(String NOQUIERO) {
+        this.NOQUIERO = NOQUIERO;
+    }
+    
+    
     
 }
